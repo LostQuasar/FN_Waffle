@@ -1,0 +1,10 @@
+{
+    "name": "spaceman-fn_waffle",
+    "author": "Spaceman",
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "main.js",
+    "dependencies": {
+      "senko-modapi": "1.0.0"
+    }
+  }

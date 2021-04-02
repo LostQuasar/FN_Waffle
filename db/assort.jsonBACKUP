@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "_id": "FIVE_SEVEN_10RND",
+      "_tpl": "033021_FIVESEVEN_10RND0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_20RND",
+      "_tpl": "5d3eb5eca4b9363b1f22f8e4",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_20RND_BLK",
+      "_tpl": "5d3eb5eca4b9363b1f22f8e4",
+      "parentId": "FIVE_SEVEN_BLK_FRAME",
+      "slotId": "mod_magazine",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_20RND_FDE",
+      "_tpl": "5d3eb5eca4b9363b1f22f8e4",
+      "parentId": "FIVE_SEVEN_FDE_FRAME",
+      "slotId": "mod_magazine",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_BLK_FRAME",
+      "_tpl": "5d3eb3b0a4b93615055e84d2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_FDE_FRAME",
+      "_tpl": "5d67abc1a4b93614ec50137f",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_BARREL",
+      "_tpl": "5d3eb5b6a4b9361eab311902",
+      "parentId": "FIVE_SEVEN_BLK_FRAME",
+      "slotId": "mod_barrel",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_BARREL_FDE",
+      "_tpl": "5d3eb5b6a4b9361eab311902",
+      "parentId": "FIVE_SEVEN_FDE_FRAME",
+      "slotId": "mod_barrel",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_THREADED_BARREL",
+      "_tpl": "5d3eb59ea4b9361c284bb4b2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_SLIDE",
+      "_tpl": "5d3eb44aa4b93650d64e4979",
+      "parentId": "FIVE_SEVEN_BLK_FRAME",
+      "slotId": "mod_reciever",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "P90",
+      "_tpl": "5cc82d76e24e8d00134b4b83",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_BARREL_10",
+      "_tpl": "5cc701aae4a949000e1ea45c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_BARREL_16",
+      "_tpl": "5cc701d7e4a94900100ac4e7",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_CHARGE_FN",
+      "_tpl": "5cc6ea78e4a949000e1ea3c1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_CHARGE_KM",
+      "_tpl": "5cc6ea85e4a949000e1ea3c3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_EFFEN_UPPER",
+      "_tpl": "5cc700ede4a949033c734315",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_UPPER",
+      "_tpl": "5cc70102e4a949035e43ba74",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "PS90_UPPER",
+      "_tpl": "5cf7acfcd7f00c1084477cf2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_STOCK",
+      "_tpl": "5cc700b9e4a949000f0f0f25",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "PS90_STOCK",
+      "_tpl": "5cebec10d7f00c065703d185",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_FN_BUTT",
+      "_tpl": "5cc700cae4a949035e43ba72",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_DI_BUTT",
+      "_tpl": "5cc700d4e4a949000f0f0f28",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_FH",
+      "_tpl": "5cc82796e24e8d000f5859a8",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_SILENCER",
+      "_tpl": "5cebec00d7f00c065c53522a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_MAG",
+      "_tpl": "5cc70093e4a949033c734312",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_FRAME",
+      "_tpl": "5b0bbe4e5acfc40dc528a72d",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_11_BARREL",
+      "_tpl": "5b099a765acfc47a8607efe3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_16_BARREL",
+      "_tpl": "5b7be1125acfc4001876c0e5",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_21_BARREL",
+      "_tpl": "5b7be1265acfc400161d0798",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_CASV_FAL",
+      "_tpl": "5b7bedd75acfc43d825283f9",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_CASV_FAS",
+      "_tpl": "5b7bee755acfc400196d5383",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_BEL_FORE",
+      "_tpl": "5b7d671b5acfc43d82528ddd",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_AUS_FORE",
+      "_tpl": "5b7bed205acfc400161d08cc",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_KEYMOD_FORE",
+      "_tpl": "5b7be2345acfc400196d524a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MLOK_FORE",
+      "_tpl": "5b7bebc85acfc43bca706666",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_QUAD_FORE",
+      "_tpl": "5b7be1ca5acfc400170e2d2f",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_AG_FAL",
+      "_tpl": "5b7d679f5acfc4001a5c4024",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_DS_GRIP",
+      "_tpl": "5b7d678a5acfc4001a5c4022",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_SAW_GRIP",
+      "_tpl": "5b099b965acfc400186331e6",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_IRONS",
+      "_tpl": "5b0bc22d5acfc47a8607f085",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_ED_FAL",
+      "_tpl": "5b099bb25acfc400186331e8",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_RD_FAL",
+      "_tpl": "5b7d6c105acfc40015109a5f",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_PRS2",
+      "_tpl": "5b7d63b75acfc400170e2f8a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_BRS",
+      "_tpl": "5b7d64555acfc4001876c8e2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_FLD",
+      "_tpl": "5b7d63cf5acfc4001876c8df",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_PLMR",
+      "_tpl": "5b7d645e5acfc400170e2f90",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_SPR",
+      "_tpl": "5b7d63de5acfc400170e2f8d",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_STOCK_BTA",
+      "_tpl": "5b099bf25acfc4001637e683",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_10",
+      "_tpl": "5b7bef1e5acfc43d82528402",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_20",
+      "_tpl": "5b099ac65acfc400186331e1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_MMW_20",
+      "_tpl": "5b7c2d1d5acfc43d1028532a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_30",
+      "_tpl": "5b7bef5d5acfc43bca7067a3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_BRT_30",
+      "_tpl": "5b7d37845acfc400170e2f87",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_MAG_50",
+      "_tpl": "5b7bef9c5acfc43d102852ec",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_SS190",
+      "_tpl": "5cc80f38e4a949001152b560",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_SB193",
+      "_tpl": "5cc80f67e4a949035e43bbba",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_L191",
+      "_tpl": "5cc80f53e4a949000e1ea4f8",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_SS197SR",
+      "_tpl": "5cc80f8fe4a949033b0224a2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_R37X",
+      "_tpl": "5cc86840d7f00c002412c56c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_SS198LF",
+      "_tpl": "5cc80f79e4a949033c7343b2",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "57_28_R37F",
+      "_tpl": "5cc86832d7f00c000d3a6e6c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FN_GL40",
+      "_tpl": "5e81ebcd8e146c7080625e15",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_GRIP",
+      "_tpl": "571659bb2459771fb2755a12",
+      "parentId": "FN_GL40",
+      "slotId": "mod_pistol_grip",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "MBUS_FS",
+      "_tpl": "5c18b90d2e2216152142466b",
+      "parentId": "FN_GL40",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "MBUS_RS",
+      "_tpl": "5c18b9192e2216398b5a8104",
+      "parentId": "FN_GL40",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "HE109_57_28",
+      "_tpl": "033021_HE1095728_0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_FS",
+      "_tpl": "5d3eb536a4b9363b1f22f8e2",
+      "parentId": "FIVE_SEVEN_SLIDE",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_FS_FDE",
+      "_tpl": "5d3eb536a4b9363b1f22f8e2",
+      "parentId": "FIVE_SEVEN_FDE_SLIDE",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_RMR",
+      "_tpl": "5d7b6bafa4b93652786f4c76",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_RS",
+      "_tpl": "5d3eb4aba4b93650d64e497d",
+      "parentId": "FIVE_SEVEN_SLIDE",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_RS_FDE",
+      "_tpl": "5d3eb4aba4b93650d64e497d",
+      "parentId": "FIVE_SEVEN_FDE_SLIDE",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_SILENCER",
+      "_tpl": "5d3ef698a4b9361182109872",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "SA58_QUAD_HALF",
+      "_tpl": "5b099a9d5acfc47a8607efe7",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_FDE_SLIDE",
+      "_tpl": "040121_FIVE_SEVEN_FDE_SLIDE0",
+      "parentId": "FIVE_SEVEN_FDE_FRAME",
+      "slotId": "mod_reciever",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    }
+  ],
+  "barter_scheme": {
+    "FIVE_SEVEN_10RND": [
+      [
+        {
+          "count": 1460,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_20RND": [
+      [
+        {
+          "count": 3660,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_BLK_FRAME": [
+      [
+        {
+          "count": 27893,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_FDE_FRAME": [
+      [
+        {
+          "count": 27893,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_THREADED_BARREL": [
+      [
+        {
+          "count": 4200,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90": [
+      [
+        {
+          "count": 45200,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_BARREL_10": [
+      [
+        {
+          "count": 19600,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_BARREL_16": [
+      [
+        {
+          "count": 22300,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_CHARGE_FN": [
+      [
+        {
+          "count": 1600,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_CHARGE_KM": [
+      [
+        {
+          "count": 2663,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_EFFEN_UPPER": [
+      [
+        {
+          "count": 3800,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_UPPER": [
+      [
+        {
+          "count": 2400,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "PS90_UPPER": [
+      [
+        {
+          "count": 2200,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_STOCK": [
+      [
+        {
+          "count": 3500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "PS90_STOCK": [
+      [
+        {
+          "count": 3350,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_FN_BUTT": [
+      [
+        {
+          "count": 2250,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_DI_BUTT": [
+      [
+        {
+          "count": 4150,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_FH": [
+      [
+        {
+          "count": 1600,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_SILENCER": [
+      [
+        {
+          "count": 63450,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_MAG": [
+      [
+        {
+          "count": 10500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_FRAME": [
+      [
+        {
+          "count": 38093,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_11_BARREL": [
+      [
+        {
+          "count": 23337,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_16_BARREL": [
+      [
+        {
+          "count": 27397,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_21_BARREL": [
+      [
+        {
+          "count": 33060,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_CASV_FAL": [
+      [
+        {
+          "count": 16262,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_CASV_FAS": [
+      [
+        {
+          "count": 13068,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_BEL_FORE": [
+      [
+        {
+          "count": 3002,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_AUS_FORE": [
+      [
+        {
+          "count": 2400,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_KEYMOD_FORE": [
+      [
+        {
+          "count": 4841,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MLOK_FORE": [
+      [
+        {
+          "count": 5484,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_QUAD_FORE": [
+      [
+        {
+          "count": 9601,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_AG_FAL": [
+      [
+        {
+          "count": 4213,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_DS_GRIP": [
+      [
+        {
+          "count": 1100,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_SAW_GRIP": [
+      [
+        {
+          "count": 3207,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_IRONS": [
+      [
+        {
+          "count": 470,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_ED_FAL": [
+      [
+        {
+          "count": 11568,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_RD_FAL": [
+      [
+        {
+          "count": 2501,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_PRS2": [
+      [
+        {
+          "count": 16197,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_BRS": [
+      [
+        {
+          "count": 16150,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_FLD": [
+      [
+        {
+          "count": 14015,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_PLMR": [
+      [
+        {
+          "count": 3400,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_SPR": [
+      [
+        {
+          "count": 23411,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_STOCK_BTA": [
+      [
+        {
+          "count": 2602,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_10": [
+      [
+        {
+          "count": 1802,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_20": [
+      [
+        {
+          "count": 2780,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_MMW_20": [
+      [
+        {
+          "count": 3007,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_30": [
+      [
+        {
+          "count": 4466,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_BRT_30": [
+      [
+        {
+          "count": 4609,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_MAG_50": [
+      [
+        {
+          "count": 26294,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_SS190": [
+      [
+        {
+          "count": 105,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_SB193": [
+      [
+        {
+          "count": 143,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_L191": [
+      [
+        {
+          "count": 112,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_SS197SR": [
+      [
+        {
+          "count": 110,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_R37X": [
+      [
+        {
+          "count": 186,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_SS198LF": [
+      [
+        {
+          "count": 134,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "57_28_R37F": [
+      [
+        {
+          "count": 215,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FN_GL40": [
+      [
+        {
+          "count": 110000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "HE109_57_28": [
+      [
+        {
+          "count": 540,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_RMR": [
+      [
+        {
+          "count": 1700,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "FIVE_SEVEN_SILENCER": [
+      [
+        {
+          "count": 37940,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "SA58_QUAD_HALF": [
+      [
+        {
+          "count": 8637,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ]
+  },
+  "loyal_level_items": {
+    "FIVE_SEVEN_10RND": 1,
+    "FIVE_SEVEN_20RND": 1,
+    "FIVE_SEVEN_BLK_FRAME": 1,
+    "FIVE_SEVEN_FDE_FRAME": 1,
+    "FIVE_SEVEN_THREADED_BARREL": 1,
+    "P90": 1,
+    "P90_BARREL_10": 1,
+    "P90_BARREL_16": 1,
+    "P90_CHARGE_FN": 1,
+    "P90_CHARGE_KM": 1,
+    "P90_EFFEN_UPPER": 1,
+    "P90_UPPER": 1,
+    "PS90_UPPER": 1,
+    "P90_STOCK": 1,
+    "PS90_STOCK": 1,
+    "P90_FN_BUTT": 1,
+    "P90_DI_BUTT": 1,
+    "P90_FH": 1,
+    "P90_SILENCER": 1,
+    "P90_MAG": 1,
+    "SA58_FRAME": 1,
+    "SA58_11_BARREL": 1,
+    "SA58_16_BARREL": 1,
+    "SA58_21_BARREL": 1,
+    "SA58_CASV_FAL": 1,
+    "SA58_CASV_FAS": 1,
+    "SA58_BEL_FORE": 1,
+    "SA58_AUS_FORE": 1,
+    "SA58_KEYMOD_FORE": 1,
+    "SA58_MLOK_FORE": 1,
+    "SA58_QUAD_FORE": 1,
+    "SA58_AG_FAL": 1,
+    "SA58_DS_GRIP": 1,
+    "SA58_SAW_GRIP": 1,
+    "SA58_IRONS": 1,
+    "SA58_ED_FAL": 1,
+    "SA58_RD_FAL": 1,
+    "SA58_STOCK_PRS2": 1,
+    "SA58_STOCK_BRS": 1,
+    "SA58_STOCK_FLD": 1,
+    "SA58_STOCK_PLMR": 1,
+    "SA58_STOCK_SPR": 1,
+    "SA58_STOCK_BTA": 1,
+    "SA58_MAG_10": 1,
+    "SA58_MAG_20": 1,
+    "SA58_MAG_MMW_20": 1,
+    "SA58_MAG_30": 1,
+    "SA58_MAG_BRT_30": 1,
+    "SA58_MAG_50": 1,
+    "57_28_SS190": 1,
+    "57_28_SB193": 1,
+    "57_28_L191": 1,
+    "57_28_SS197SR": 1,
+    "57_28_R37X": 1,
+    "57_28_SS198LF": 1,
+    "57_28_R37F": 1,
+    "FN_GL40": 1,
+    "HE109_57_28": 1,
+    "FIVE_SEVEN_RMR": 1,
+    "FIVE_SEVEN_SILENCER": 1,
+    "SA58_QUAD_HALF": 1
+  }
+}

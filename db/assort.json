@@ -39,6 +39,15 @@
       }
     },
     {
+      "_id": "FIVE_SEVEN_20RND_RED",
+      "_tpl": "5d3eb5eca4b9363b1f22f8e4",
+      "parentId": "FIVE_SEVEN_FRAME_RED",
+      "slotId": "mod_magazine",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
       "_id": "FIVE_SEVEN_BLK_FRAME",
       "_tpl": "5d3eb3b0a4b93615055e84d2",
       "parentId": "hideout",
@@ -73,6 +82,23 @@
       }
     },
     {
+      "_id": "FIVE_SEVEN_FRAME_RED",
+      "_tpl": "040721_FIVE_SEVEN_FRAME_RED0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
       "_id": "FIVE_SEVEN_BARREL",
       "_tpl": "5d3eb5b6a4b9361eab311902",
       "parentId": "FIVE_SEVEN_BLK_FRAME",
@@ -85,6 +111,15 @@
       "_id": "FIVE_SEVEN_BARREL_FDE",
       "_tpl": "5d3eb5b6a4b9361eab311902",
       "parentId": "FIVE_SEVEN_FDE_FRAME",
+      "slotId": "mod_barrel",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_BARREL_RED",
+      "_tpl": "5d3eb5b6a4b9361eab311902",
+      "parentId": "FIVE_SEVEN_FRAME_RED",
       "slotId": "mod_barrel",
       "upd": {
         "StackObjectsCount": 1
@@ -104,6 +139,15 @@
       "_id": "FIVE_SEVEN_SLIDE",
       "_tpl": "5d3eb44aa4b93650d64e4979",
       "parentId": "FIVE_SEVEN_BLK_FRAME",
+      "slotId": "mod_reciever",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_SLIDE_RED",
+      "_tpl": "5d3eb44aa4b93650d64e4979",
+      "parentId": "FIVE_SEVEN_FRAME_RED",
       "slotId": "mod_reciever",
       "upd": {
         "StackObjectsCount": 1
@@ -706,6 +750,15 @@
       }
     },
     {
+      "_id": "FIVE_SEVEN_FS_RED",
+      "_tpl": "5d3eb536a4b9363b1f22f8e2",
+      "parentId": "FIVE_SEVEN_SLIDE_RED",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
       "_id": "FIVE_SEVEN_RMR",
       "_tpl": "5d7b6bafa4b93652786f4c76",
       "parentId": "hideout",
@@ -713,6 +766,15 @@
       "upd": {
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_RMR_SCOPE",
+      "_tpl": "5a32aa8bc4a2826c6e06d737",
+      "parentId": "FIVE_SEVEN_RMR",
+      "slotId": "mod_scope",
+      "upd": {
+        "StackObjectsCount": 1
       }
     },
     {
@@ -728,6 +790,15 @@
       "_id": "FIVE_SEVEN_RS_FDE",
       "_tpl": "5d3eb4aba4b93650d64e497d",
       "parentId": "FIVE_SEVEN_FDE_SLIDE",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_RS_RED",
+      "_tpl": "5d3eb4aba4b93650d64e497d",
+      "parentId": "FIVE_SEVEN_SLIDE_RED",
       "slotId": "mod_sight_rear",
       "upd": {
         "StackObjectsCount": 1
@@ -775,6 +846,16 @@
     {
       "_id": "P90_STOCK_RED",
       "_tpl": "040721_P90_STOCK_RED0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_75RND",
+      "_tpl": "040721_P90_75RND0",
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
@@ -1287,6 +1368,22 @@
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
+    ],
+    "FIVE_SEVEN_FRAME_RED": [
+      [
+        {
+          "count": 34238,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_75RND": [
+      [
+        {
+          "count": 15500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
@@ -1352,6 +1449,8 @@
     "FIVE_SEVEN_SILENCER": 1,
     "SA58_QUAD_HALF": 1,
     "FIVE_SEVEN_50RND": 1,
-    "P90_STOCK_RED": 1
+    "P90_STOCK_RED": 1,
+    "FIVE_SEVEN_FRAME_RED": 1,
+    "P90_75RND": 1
   }
 }

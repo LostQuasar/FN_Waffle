@@ -27,12 +27,84 @@
       ]
     },
     {
+      "key": "P90_75RND.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
       "key": "P90_STOCK_RED.bundle",
       "dependencyKeys": [
         "cubemaps",
         "shaders",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/weapons/p90/client_assets.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEN_FRAME_RED/weapon_fn_five_seven_57x28_container.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "FIVE_SEVEN_FRAME_RED/textures/client_assets.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+        "FIVE_SEVEN_FRAME_RED/weapon_fn_five_seven_57x28_fde_container.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "FIVE_SEVEN_FRAME_RED/client_assets.bundle",
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/weapons/ak74.bundle",
+        "assets/content/audio/weapons/pm.bundle",
+        "assets/content/audio/weapons/generic",
+        "assets/content/audio/weapons/grach.bundle",
+        "FIVE_SEVEM_FRAME_RED/weapon_fn_five_seven_57x28.animatorcontrollerdata.bundle",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEN_FRAME_RED/weapon_fn_five_seven_57x28_fde_container.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "FIVE_SEVEN_FRAME_RED/textures/client_assets.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+        "assets/content/weapons/animations/spirit_animations.bundle",
+        "assets/content/weapons/animations/simple_animations.bundle",
+        "assets/content/weapons/weapon_root_anim_fix.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/weapons/animations/animations.bundle",
+        "assets/content/weapons/additional_hands/client_assets.bundle",
+        "FIVE_SEVEN_FRAME_RED/client_assets.bundle",
+        "assets/content/weapons/tt/client_assets.bundle",
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/weapons/ak74.bundle",
+        "assets/content/audio/weapons/pm.bundle",
+        "assets/content/audio/weapons/generic",
+        "assets/content/audio/weapons/grach.bundle",
+        "FIVE_SEVEM_FRAME_RED/weapon_fn_five_seven_57x28.animatorcontrollerdata.bundle",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEN_FRAME_RED/textures/client_assets.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "FIVE_SEVEN_FRAME_RED/client_assets.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "FIVE_SEVEN_FRAME_RED/textures/client_assets.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEM_FRAME_RED/weapon_fn_five_seven_57x28.animatorcontrollerdata.bundle",
+      "dependencyKeys": [
+        "assets/Content/Weapons/rfb/weapon_kel_tec_rfb_762x51.animatorcontrollerdata.json",
+        "assets/Content/Weapons/fiveseven/weapon_fn_five_seven_57x28.animatorcontrollerdata.json"
       ]
     }
   ]

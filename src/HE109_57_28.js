@@ -11,7 +11,6 @@ class HE109_57_28{
         }
         var supportedMags = {
             FIVE_SEVEN_20RND: "5d3eb5eca4b9363b1f22f8e4", 
-            FIVE_SEVEN_10RND: "033021_FIVESEVEN_10RND0",
             P90_MAG: "5cc70093e4a949033c734312"
         }
 

@@ -38,7 +38,6 @@ class FIVE_SEVEN_10RND{
         // add custom item names to all languages/LOCALES
         main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
         main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
-        main.createItemOffer(itemId);
     }
 }
 module.exports = FIVE_SEVEN_10RND;

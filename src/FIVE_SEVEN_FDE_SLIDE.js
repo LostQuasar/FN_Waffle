@@ -36,7 +36,6 @@ class FIVE_SEVEN_FDE_SLIDE{
         
         main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
         main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
-        main.createItemOffer(itemId);
     }
 }
 

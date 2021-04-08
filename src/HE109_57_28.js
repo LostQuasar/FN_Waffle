@@ -58,7 +58,6 @@ class HE109_57_28{
         // pass info to functions bellow
         main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
         main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
-        main.createItemOffer(itemId);
     }
 }
 module.exports = HE109_57_28;

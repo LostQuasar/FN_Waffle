@@ -1,6 +1,6 @@
 {
-    "name": "spaceman-fn_waffle",
-    "author": "Spaceman",
+    "name": "fn_waffle",
+    "author": "spaceman",
     "version": "0.1.0",
     "license": "MIT",
     "main": "main.js",

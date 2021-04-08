@@ -1,22 +1,39 @@
 {
-    "manifest": [
-        {
-            "key": "HE109_57_28.bundle",
-            "dependencyKeys": [
-              "cubemaps",
-              "shaders",
-              "assets/content/items/ammo/patrons/patron_57x28_ss190_gloss_nrm",
-              "assets/content/items/ammo/patrons/patron_57x28_ss190_mesh",
-              "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "FIVE_SEVEN_FDE_SLIDE.bundle",
-            "dependencyKeys": [
-              "cubemaps",
-              "shaders",
-              "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        }
-    ]
+  "manifest": [
+    {
+      "key": "HE109_57_28.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/items/ammo/patrons/patron_57x28_ss190_gloss_nrm",
+        "assets/content/items/ammo/patrons/patron_57x28_ss190_mesh",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEN_FDE_SLIDE.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "FIVE_SEVEN_50RND.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "P90_STOCK_RED.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/weapons/p90/client_assets.bundle"
+      ]
+    }
+  ]
 }

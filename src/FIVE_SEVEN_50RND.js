@@ -38,14 +38,13 @@ class FIVE_SEVEN_50RND{
         item._props.Cartridges[0]._props.filters[0].Filter[5] = "5cc80f8fe4a949033b0224a2";
         item._props.Cartridges[0]._props.filters[0].Filter[6] = "5cc80f79e4a949033c7343b2";
         item._props.Cartridges[0]._props.filters[0].Filter[7] = "033021_HE1095728_0";
-        //item._props.Prefab.path = i_path;
+        item._props.Prefab.path = itemPrefabPath;
 
         // add item back to database
         DatabaseServer.tables.templates.items[itemId] = item;
 
         main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
         main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
-        main.createItemOffer(itemId);
     }
 }
 

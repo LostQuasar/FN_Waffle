@@ -44,6 +44,13 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -54,6 +61,13 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -101,6 +115,13 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -251,6 +272,13 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -611,6 +639,13 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
+        "Repairable": {
+          "MaxDurability": 100,
+          "Durability": 100
+        },
+        "FireMode": {
+          "FireMode": "single"
+        },
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -725,6 +760,26 @@
       "slotId": "mod_reciever",
       "upd": {
         "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "FIVE_SEVEN_50RND",
+      "_tpl": "033021_FIVESEVEN_50RND0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "P90_STOCK_RED",
+      "_tpl": "040721_P90_STOCK_RED0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
       }
     }
   ],
@@ -1216,6 +1271,22 @@
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
+    ],
+    "FIVE_SEVEN_50RND": [
+      [
+        {
+          "count": 8661,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "P90_STOCK_RED": [
+      [
+        {
+          "count": 3500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
@@ -1279,6 +1350,8 @@
     "HE109_57_28": 1,
     "FIVE_SEVEN_RMR": 1,
     "FIVE_SEVEN_SILENCER": 1,
-    "SA58_QUAD_HALF": 1
+    "SA58_QUAD_HALF": 1,
+    "FIVE_SEVEN_50RND": 1,
+    "P90_STOCK_RED": 1
   }
 }

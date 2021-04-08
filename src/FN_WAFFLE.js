@@ -22,13 +22,14 @@ class FN_WAFFLE {
     }
 
     load(){
+        RagfairConfig.traders["FN_WAFFLE"] = true;
         const filepath = `${ModLoader.getModPath(this.mod)}db/`;
         DatabaseServer.tables.traders.FN_WAFFLE = {
             "assort":       JsonUtil.deserialize(VFS.readFile(`${filepath}assort.json`)),
             "base":         JsonUtil.deserialize(VFS.readFile(`${filepath}base.json`)),
             "dialogue":     JsonUtil.deserialize(VFS.readFile(`${filepath}dialogue.json`)),
             "questassort":  JsonUtil.deserialize(VFS.readFile(`${filepath}questassort.json`)),
-            "suits":        JsonUtil.deserialize(VFS.readFile(`${filepath}suits.json`))
+            //"suits":        JsonUtil.deserialize(VFS.readFile(`${filepath}suits.json`))
         };
         let locales = DatabaseServer.tables.locales.global;
 

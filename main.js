@@ -2,6 +2,7 @@
 const FIVE_SEVEN_FDE_SLIDE = require("./src/FIVE_SEVEN_FDE_SLIDE.js");
 const FIVE_SEVEN_10RND = require("./src/FIVE_SEVEN_10RND.js");
 const FIVE_SEVEN_50RND = require("./src/FIVE_SEVEN_50RND.js");
+const P90_STOCK_RED = require("./src/P90_STOCK_RED.js")
 const HE109_57_28 = require("./src/HE109_57_28.js");
 const FN_WAFFLE = require("./src/FN_WAFFLE.js");
 
@@ -15,6 +16,8 @@ class main{
         ModLoader.onLoad["FIVE_SEVEN_50RND"] = FIVE_SEVEN_50RND.onLoadMod; 
         Logger.info(`Loading: HE109_57_28`);
         ModLoader.onLoad["HE109_57_28"] = HE109_57_28.onLoadMod; 
+        Logger.info(`Loading: P90_STOCK_RED`);
+        ModLoader.onLoad["P90_STOCK_RED"] = P90_STOCK_RED.onLoadMod; 
     }
 
     static createItemHandbookEntry(i_id, i_category, i_fprice){
@@ -24,23 +27,6 @@ class main{
             "ParentId": i_category,
             "Price": i_fprice
         });
-    }
-
-    static createItemOffer(i_id){
-        // add item stack to fleamarket
-        DatabaseServer.tables.traders.ragfair.assort.items.push(
-        {
-            "_id": i_id,
-            "_tpl": i_id,
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd":
-            {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 999999
-            }
-        });
-        DatabaseServer.tables.traders.ragfair.assort.loyal_level_items[i_id] = 1;
     }
 
     static createItemLocale(i_id, i_lname, i_sname, i_desc){
@@ -59,5 +45,4 @@ class main{
 module.exports.main = new main();
 module.exports.fn_waffle = new FN_WAFFLE();
 module.exports.createItemHandbookEntry = (i_id, i_category, i_fprice) => main.createItemHandbookEntry(i_id, i_category, i_fprice);
-module.exports.createItemOffer = (i_id) => main.createItemOffer(i_id);
 module.exports.createItemLocale = (i_id, i_lname, i_sname, i_desc) => main.createItemLocale(i_id, i_lname, i_sname, i_desc);

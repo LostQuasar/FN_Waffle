@@ -862,6 +862,66 @@
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
+    },
+    {
+      "_id": "GL40_M576",
+      "_tpl": "5ede475339ee016e8c534742",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_M441",
+      "_tpl": "5ede47405b097655935d7d16",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_M433",
+      "_tpl": "5f0c892565703e5c461894e9",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_M406",
+      "_tpl": "5ede4739e0350d05467f73e8",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_M386",
+      "_tpl": "5ede475b549eed7c6d5c18fb",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
+    },
+    {
+      "_id": "GL40_M381",
+      "_tpl": "5ede474b0c226a66f5402622",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+      }
     }
   ],
   "barter_scheme": {
@@ -1316,7 +1376,7 @@
     "FN_GL40": [
       [
         {
-          "count": 110000,
+          "count": 117599,
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
@@ -1384,6 +1444,54 @@
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
+    ],
+    "GL40_M576": [
+      [
+        {
+          "count": 2900,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "GL40_M441": [
+      [
+        {
+          "count": 8500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "GL40_M433": [
+      [
+        {
+          "count": 10500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "GL40_M406": [
+      [
+        {
+          "count": 7700,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "GL40_M386": [
+      [
+        {
+          "count": 6850,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "GL40_M381": [
+      [
+        {
+          "count": 5700,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
@@ -1392,50 +1500,50 @@
     "FIVE_SEVEN_BLK_FRAME": 1,
     "FIVE_SEVEN_FDE_FRAME": 1,
     "FIVE_SEVEN_THREADED_BARREL": 1,
-    "P90": 1,
-    "P90_BARREL_10": 1,
-    "P90_BARREL_16": 1,
-    "P90_CHARGE_FN": 1,
-    "P90_CHARGE_KM": 1,
-    "P90_EFFEN_UPPER": 1,
-    "P90_UPPER": 1,
-    "PS90_UPPER": 1,
-    "P90_STOCK": 1,
-    "PS90_STOCK": 1,
-    "P90_FN_BUTT": 1,
-    "P90_DI_BUTT": 1,
-    "P90_FH": 1,
-    "P90_SILENCER": 1,
-    "P90_MAG": 1,
-    "SA58_FRAME": 1,
-    "SA58_11_BARREL": 1,
-    "SA58_16_BARREL": 1,
-    "SA58_21_BARREL": 1,
-    "SA58_CASV_FAL": 1,
-    "SA58_CASV_FAS": 1,
-    "SA58_BEL_FORE": 1,
-    "SA58_AUS_FORE": 1,
-    "SA58_KEYMOD_FORE": 1,
-    "SA58_MLOK_FORE": 1,
-    "SA58_QUAD_FORE": 1,
-    "SA58_AG_FAL": 1,
-    "SA58_DS_GRIP": 1,
-    "SA58_SAW_GRIP": 1,
-    "SA58_IRONS": 1,
-    "SA58_ED_FAL": 1,
-    "SA58_RD_FAL": 1,
-    "SA58_STOCK_PRS2": 1,
-    "SA58_STOCK_BRS": 1,
-    "SA58_STOCK_FLD": 1,
-    "SA58_STOCK_PLMR": 1,
-    "SA58_STOCK_SPR": 1,
-    "SA58_STOCK_BTA": 1,
-    "SA58_MAG_10": 1,
-    "SA58_MAG_20": 1,
-    "SA58_MAG_MMW_20": 1,
-    "SA58_MAG_30": 1,
-    "SA58_MAG_BRT_30": 1,
-    "SA58_MAG_50": 1,
+    "P90": 2,
+    "P90_BARREL_10": 2,
+    "P90_BARREL_16": 2,
+    "P90_CHARGE_FN": 2,
+    "P90_CHARGE_KM": 2,
+    "P90_EFFEN_UPPER": 2,
+    "P90_UPPER": 2,
+    "PS90_UPPER": 2,
+    "P90_STOCK": 2,
+    "PS90_STOCK": 2,
+    "P90_FN_BUTT": 2,
+    "P90_DI_BUTT": 2,
+    "P90_FH": 2,
+    "P90_SILENCER": 2,
+    "P90_MAG": 2,
+    "SA58_FRAME": 3,
+    "SA58_11_BARREL": 3,
+    "SA58_16_BARREL": 3,
+    "SA58_21_BARREL": 3,
+    "SA58_CASV_FAL": 3,
+    "SA58_CASV_FAS": 3,
+    "SA58_BEL_FORE": 3,
+    "SA58_AUS_FORE": 3,
+    "SA58_KEYMOD_FORE": 3,
+    "SA58_MLOK_FORE": 3,
+    "SA58_QUAD_FORE": 3,
+    "SA58_AG_FAL": 3,
+    "SA58_DS_GRIP": 3,
+    "SA58_SAW_GRIP": 3,
+    "SA58_IRONS": 3,
+    "SA58_ED_FAL": 3,
+    "SA58_RD_FAL": 3,
+    "SA58_STOCK_PRS2": 3,
+    "SA58_STOCK_BRS": 3,
+    "SA58_STOCK_FLD": 3,
+    "SA58_STOCK_PLMR": 3,
+    "SA58_STOCK_SPR": 3,
+    "SA58_STOCK_BTA": 3,
+    "SA58_MAG_10": 3,
+    "SA58_MAG_20": 3,
+    "SA58_MAG_MMW_20": 3,
+    "SA58_MAG_30": 3,
+    "SA58_MAG_BRT_30": 3,
+    "SA58_MAG_50": 3,
     "57_28_SS190": 1,
     "57_28_SB193": 1,
     "57_28_L191": 1,
@@ -1443,14 +1551,20 @@
     "57_28_R37X": 1,
     "57_28_SS198LF": 1,
     "57_28_R37F": 1,
-    "FN_GL40": 1,
-    "HE109_57_28": 1,
+    "FN_GL40": 4,
+    "HE109_57_28": 2,
     "FIVE_SEVEN_RMR": 1,
     "FIVE_SEVEN_SILENCER": 1,
-    "SA58_QUAD_HALF": 1,
-    "FIVE_SEVEN_50RND": 1,
-    "P90_STOCK_RED": 1,
-    "FIVE_SEVEN_FRAME_RED": 1,
-    "P90_75RND": 1
+    "SA58_QUAD_HALF": 3,
+    "FIVE_SEVEN_50RND": 2,
+    "P90_STOCK_RED": 2,
+    "FIVE_SEVEN_FRAME_RED": 2,
+    "P90_75RND": 3,
+    "GL40_M576": 4,
+    "GL40_M441": 4,
+    "GL40_M433": 4,
+    "GL40_M406": 4,
+    "GL40_M386": 4,
+    "GL40_M381": 4
   }
 }

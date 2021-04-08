@@ -29,8 +29,23 @@
 		"currentSalesSum": 0,
 		"loyaltyLevels": {
 			"0": {
-				"minLevel": 1,
+				"minLevel": 0,
 				"minSalesSum": 0,
+				"minStanding": 0
+			},
+			"1": {
+				"minLevel": 15,
+				"minSalesSum": 12500,
+				"minStanding": 0
+			},
+			"2": {
+				"minLevel": 20,
+				"minSalesSum": 500000,
+				"minStanding": 0
+			},
+			"3": {
+				"minLevel": 25,
+				"minSalesSum": 1000000,
 				"minStanding": 0
 			}
 		}

@@ -1,16 +1,6 @@
 {
   "items": [
     {
-      "_id": "FIVE_SEVEN_10RND",
-      "_tpl": "033021_FIVESEVEN_10RND0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
       "_id": "FIVE_SEVEN_20RND",
       "_tpl": "5d3eb5eca4b9363b1f22f8e4",
       "parentId": "hideout",
@@ -39,27 +29,12 @@
       }
     },
     {
-      "_id": "FIVE_SEVEN_20RND_RED",
-      "_tpl": "5d3eb5eca4b9363b1f22f8e4",
-      "parentId": "FIVE_SEVEN_FRAME_RED",
-      "slotId": "mod_magazine",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
       "_id": "FIVE_SEVEN_BLK_FRAME",
       "_tpl": "5d3eb3b0a4b93615055e84d2",
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
+
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -70,30 +45,7 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_FRAME_RED",
-      "_tpl": "040721_FIVE_SEVEN_FRAME_RED0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
+
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -111,15 +63,6 @@
       "_id": "FIVE_SEVEN_BARREL_FDE",
       "_tpl": "5d3eb5b6a4b9361eab311902",
       "parentId": "FIVE_SEVEN_FDE_FRAME",
-      "slotId": "mod_barrel",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_BARREL_RED",
-      "_tpl": "5d3eb5b6a4b9361eab311902",
-      "parentId": "FIVE_SEVEN_FRAME_RED",
       "slotId": "mod_barrel",
       "upd": {
         "StackObjectsCount": 1
@@ -145,27 +88,12 @@
       }
     },
     {
-      "_id": "FIVE_SEVEN_SLIDE_RED",
-      "_tpl": "5d3eb44aa4b93650d64e4979",
-      "parentId": "FIVE_SEVEN_FRAME_RED",
-      "slotId": "mod_reciever",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
       "_id": "P90",
       "_tpl": "5cc82d76e24e8d00134b4b83",
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
+
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -316,13 +244,7 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
+
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -683,13 +605,7 @@
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
-        "Repairable": {
-          "MaxDurability": 100,
-          "Durability": 100
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
+
         "UnlimitedCount": true,
         "StackObjectsCount": 999999999
       }
@@ -722,37 +638,9 @@
       }
     },
     {
-      "_id": "HE109_57_28",
-      "_tpl": "033021_HE1095728_0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
       "_id": "FIVE_SEVEN_FS",
       "_tpl": "5d3eb536a4b9363b1f22f8e2",
       "parentId": "FIVE_SEVEN_SLIDE",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_FS_FDE",
-      "_tpl": "5d3eb536a4b9363b1f22f8e2",
-      "parentId": "FIVE_SEVEN_FDE_SLIDE",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_FS_RED",
-      "_tpl": "5d3eb536a4b9363b1f22f8e2",
-      "parentId": "FIVE_SEVEN_SLIDE_RED",
       "slotId": "mod_sight_front",
       "upd": {
         "StackObjectsCount": 1
@@ -787,24 +675,6 @@
       }
     },
     {
-      "_id": "FIVE_SEVEN_RS_FDE",
-      "_tpl": "5d3eb4aba4b93650d64e497d",
-      "parentId": "FIVE_SEVEN_FDE_SLIDE",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_RS_RED",
-      "_tpl": "5d3eb4aba4b93650d64e497d",
-      "parentId": "FIVE_SEVEN_SLIDE_RED",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
       "_id": "FIVE_SEVEN_SILENCER",
       "_tpl": "5d3ef698a4b9361182109872",
       "parentId": "hideout",
@@ -817,45 +687,6 @@
     {
       "_id": "SA58_QUAD_HALF",
       "_tpl": "5b099a9d5acfc47a8607efe7",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_FDE_SLIDE",
-      "_tpl": "040121_FIVE_SEVEN_FDE_SLIDE0",
-      "parentId": "FIVE_SEVEN_FDE_FRAME",
-      "slotId": "mod_reciever",
-      "upd": {
-        "StackObjectsCount": 1
-      }
-    },
-    {
-      "_id": "FIVE_SEVEN_50RND",
-      "_tpl": "033021_FIVESEVEN_50RND0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
-      "_id": "P90_STOCK_RED",
-      "_tpl": "040721_P90_STOCK_RED0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 999999999
-      }
-    },
-    {
-      "_id": "P90_75RND",
-      "_tpl": "040721_P90_75RND0",
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
@@ -929,7 +760,7 @@
       [
         {
           "count": 1460,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -937,7 +768,7 @@
       [
         {
           "count": 3660,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -945,7 +776,7 @@
       [
         {
           "count": 27893,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -953,7 +784,7 @@
       [
         {
           "count": 27893,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -961,7 +792,7 @@
       [
         {
           "count": 4200,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -969,7 +800,7 @@
       [
         {
           "count": 45200,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -977,7 +808,7 @@
       [
         {
           "count": 19600,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -985,7 +816,7 @@
       [
         {
           "count": 22300,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -993,7 +824,7 @@
       [
         {
           "count": 1600,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1001,7 +832,7 @@
       [
         {
           "count": 2663,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1009,7 +840,7 @@
       [
         {
           "count": 3800,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1017,7 +848,7 @@
       [
         {
           "count": 2400,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1025,7 +856,7 @@
       [
         {
           "count": 2200,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1033,7 +864,7 @@
       [
         {
           "count": 3500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1041,7 +872,7 @@
       [
         {
           "count": 3350,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1049,7 +880,7 @@
       [
         {
           "count": 2250,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1057,7 +888,7 @@
       [
         {
           "count": 4150,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1065,7 +896,7 @@
       [
         {
           "count": 1600,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1073,7 +904,7 @@
       [
         {
           "count": 63450,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1081,7 +912,7 @@
       [
         {
           "count": 10500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1089,7 +920,7 @@
       [
         {
           "count": 38093,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1097,7 +928,7 @@
       [
         {
           "count": 23337,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1105,7 +936,7 @@
       [
         {
           "count": 27397,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1113,7 +944,7 @@
       [
         {
           "count": 33060,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1121,7 +952,7 @@
       [
         {
           "count": 16262,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1129,7 +960,7 @@
       [
         {
           "count": 13068,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1137,7 +968,7 @@
       [
         {
           "count": 3002,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1145,7 +976,7 @@
       [
         {
           "count": 2400,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1153,7 +984,7 @@
       [
         {
           "count": 4841,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1161,7 +992,7 @@
       [
         {
           "count": 5484,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1169,7 +1000,7 @@
       [
         {
           "count": 9601,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1177,7 +1008,7 @@
       [
         {
           "count": 4213,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1185,7 +1016,7 @@
       [
         {
           "count": 1100,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1193,7 +1024,7 @@
       [
         {
           "count": 3207,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1201,7 +1032,7 @@
       [
         {
           "count": 470,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1209,7 +1040,7 @@
       [
         {
           "count": 11568,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1217,7 +1048,7 @@
       [
         {
           "count": 2501,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1225,7 +1056,7 @@
       [
         {
           "count": 16197,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1233,7 +1064,7 @@
       [
         {
           "count": 16150,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1241,7 +1072,7 @@
       [
         {
           "count": 14015,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1249,7 +1080,7 @@
       [
         {
           "count": 3400,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1257,7 +1088,7 @@
       [
         {
           "count": 23411,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1265,7 +1096,7 @@
       [
         {
           "count": 2602,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1273,7 +1104,7 @@
       [
         {
           "count": 1802,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1281,7 +1112,7 @@
       [
         {
           "count": 2780,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1289,7 +1120,7 @@
       [
         {
           "count": 3007,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1297,7 +1128,7 @@
       [
         {
           "count": 4466,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1305,7 +1136,7 @@
       [
         {
           "count": 4609,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1313,7 +1144,7 @@
       [
         {
           "count": 26294,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1321,7 +1152,7 @@
       [
         {
           "count": 105,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1329,7 +1160,7 @@
       [
         {
           "count": 143,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1337,7 +1168,7 @@
       [
         {
           "count": 112,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1345,7 +1176,7 @@
       [
         {
           "count": 110,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1353,7 +1184,7 @@
       [
         {
           "count": 186,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1361,7 +1192,7 @@
       [
         {
           "count": 134,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1369,7 +1200,7 @@
       [
         {
           "count": 215,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1377,7 +1208,7 @@
       [
         {
           "count": 117599,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1385,15 +1216,15 @@
       [
         {
           "count": 540,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
     "FIVE_SEVEN_RMR": [
       [
         {
-          "count": 1700,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "count": 23915,
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1401,7 +1232,7 @@
       [
         {
           "count": 37940,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1409,7 +1240,7 @@
       [
         {
           "count": 8637,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1417,31 +1248,7 @@
       [
         {
           "count": 8661,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "P90_STOCK_RED": [
-      [
-        {
-          "count": 3500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "FIVE_SEVEN_FRAME_RED": [
-      [
-        {
-          "count": 34238,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "P90_75RND": [
-      [
-        {
-          "count": 15500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1449,7 +1256,7 @@
       [
         {
           "count": 2900,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1457,7 +1264,7 @@
       [
         {
           "count": 8500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1465,7 +1272,7 @@
       [
         {
           "count": 10500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1473,7 +1280,7 @@
       [
         {
           "count": 7700,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1481,7 +1288,7 @@
       [
         {
           "count": 6850,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ],
@@ -1489,13 +1296,12 @@
       [
         {
           "count": 5700,
-          "_tpl": "5449016a4bdc2d6f028b456f"
+          "_tpl": "RUB"
         }
       ]
     ]
   },
   "loyal_level_items": {
-    "FIVE_SEVEN_10RND": 1,
     "FIVE_SEVEN_20RND": 1,
     "FIVE_SEVEN_BLK_FRAME": 1,
     "FIVE_SEVEN_FDE_FRAME": 1,
@@ -1552,14 +1358,10 @@
     "57_28_SS198LF": 1,
     "57_28_R37F": 1,
     "FN_GL40": 4,
-    "HE109_57_28": 2,
     "FIVE_SEVEN_RMR": 1,
     "FIVE_SEVEN_SILENCER": 1,
     "SA58_QUAD_HALF": 3,
     "FIVE_SEVEN_50RND": 2,
-    "P90_STOCK_RED": 2,
-    "FIVE_SEVEN_FRAME_RED": 2,
-    "P90_75RND": 3,
     "GL40_M576": 4,
     "GL40_M441": 4,
     "GL40_M433": 4,

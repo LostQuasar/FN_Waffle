@@ -3,7 +3,7 @@ from tkinter.ttk import Combobox
 import json
 
 currency=("RUB","USD","EUR")
-currencyId=("5449016a4bdc2d6f028b456f","5696686a4bdc2da3298b456a","569668774bdc2da2298b4568")
+currencyId=("RUB","5696686a4bdc2da3298b456a","569668774bdc2da2298b4568")
 loyaltyLevels=(1,2,3,4)
 
 class DisplayWindow:

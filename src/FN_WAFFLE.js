@@ -1,12 +1,17 @@
 "use strict";
 
+const config = require("../config.json");
+
 class FN_WAFFLE {
 	constructor() {
-        Logger.info(`Loading: FN_WAFFLE`);
         this.mod = "spaceman-fn_waffle";
         ModLoader.onLoad[this.mod] = this.load.bind(this);    
         this.funcptr = HttpServer.onRespond["IMAGE"];    
         HttpServer.onRespond["IMAGE"] = this.getImage.bind(this);
+
+        if (config.debug){
+            Logger.info(`Loading: FN_WAFFLE`);
+        }
     }
 
     getImage(sessionID, req, resp, body){
@@ -20,7 +25,6 @@ class FN_WAFFLE {
 
         this.funcptr(sessionID, req, resp, body);
     }
-
     load(){
         RagfairConfig.traders["FN_WAFFLE"] = true;
         const filepath = `${ModLoader.getModPath(this.mod)}db/`;
@@ -29,7 +33,7 @@ class FN_WAFFLE {
             "base":         JsonUtil.deserialize(VFS.readFile(`${filepath}base.json`)),
             "dialogue":     JsonUtil.deserialize(VFS.readFile(`${filepath}dialogue.json`)),
             "questassort":  JsonUtil.deserialize(VFS.readFile(`${filepath}questassort.json`)),
-            //"suits":        JsonUtil.deserialize(VFS.readFile(`${filepath}suits.json`))
+            "suits":        JsonUtil.deserialize(VFS.readFile(`${filepath}suits.json`))
         };
         let locales = DatabaseServer.tables.locales.global;
 

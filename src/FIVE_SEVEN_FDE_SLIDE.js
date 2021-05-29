@@ -1,14 +1,10 @@
 "use strict";
 
-class FIVE_SEVEN_FDE_SLIDE{
-    static onLoadMod(){
-        const main = require('../main')
+const SpaceApi = require("../../spaceman-api/api");
+const config = require("../config.json");
 
-        var supportedWeapons = {
-            FDE_FIVE_SEVEN: "5d3eb3b0a4b93615055e84d2", 
-            BLK_FIVE_SEVEN: "5d67abc1a4b93614ec50137f",
-        }
-
+class FIVE_SEVEN_FDE_SLIDE {
+    static onLoadMod() {
         const itemId = "040121_FIVE_SEVEN_FDE_SLIDE0";
         const itemClone = "5d3eb44aa4b93650d64e4979";
         const itemCategory = "5b5f764186f77447ec5d7714";
@@ -18,24 +14,24 @@ class FIVE_SEVEN_FDE_SLIDE{
         const itemShortName = "57 Slide";
         const itemDescription = "FDE slide for Five-seveN MK2, product by Fabrique Nationale of Herstal.";
 
-        // add to frames
-        for (var weapon in supportedWeapons){
-            let currentWeapon = JsonUtil.clone(DatabaseServer.tables.templates.items[supportedWeapons[weapon]]);
-            currentWeapon._props.Slots[1]._props.filters[0].Filter.push(itemId);
-            DatabaseServer.tables.templates.items[supportedWeapons[weapon]] = currentWeapon;
-        };
+        if (config.debug){
+            Logger.info(`Loading: ${itemId}`);
+        }
 
         let item = JsonUtil.clone(DatabaseServer.tables.templates.items[itemClone]);
-
-        // change item properties
         item._id = itemId;
         item._props.Prefab.path = itemPrefabPath;
-
-        // add item back to database
         DatabaseServer.tables.templates.items[itemId] = item;
-        
-        main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
-        main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
+
+        SpaceApi.AddItemSlotFilter("5d3eb3b0a4b93615055e84d2", itemId, SpaceApi.FindSlotIndex("5d3eb3b0a4b93615055e84d2", "mod_reciever"));
+        SpaceApi.AddItemSlotFilter("5d67abc1a4b93614ec50137f", itemId, SpaceApi.FindSlotIndex("5d67abc1a4b93614ec50137f", "mod_reciever"));
+
+        SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
+        SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
+
+        SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_SLIDE_FDE", itemId, "FN_WAFFLE", "FIVE_SEVEN_FDE_FRAME","mod_reciever");
+        SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_FS_FDE", "5d3eb536a4b9363b1f22f8e2", "FN_WAFFLE", "FIVE_SEVEN_SLIDE_FDE", "mod_sight_front");
+        SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_RS_FDE", "5d3eb4aba4b93650d64e497d", "FN_WAFFLE", "FIVE_SEVEN_SLIDE_FDE", "mod_sight_rear");
     }
 }
 

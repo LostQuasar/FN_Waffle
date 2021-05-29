@@ -1,13 +1,10 @@
 "use strict";
 
-class P90_75RND{
-    static onLoadMod(){
-        const main = require('../main')
+const SpaceApi = require("../../spaceman-api/api");
+const config = require("../config.json");
 
-        var supportedWeapons = {
-            P90: "5cc82d76e24e8d00134b4b83"
-        }
-
+class P90_75RND {
+    static onLoadMod() {
         const itemId = "040721_P90_75RND0";
         const itemClone = "5cc70093e4a949033c734312";
         const itemCategory = "5b5f754a86f774094242f19b";
@@ -17,25 +14,21 @@ class P90_75RND{
         const itemShortName = "P90 75RND";
         const itemDescription = "75-round polymer magazine for 5.7x28 mm P90.";
 
-        // add to frames
-        for (var weapon in supportedWeapons){
-            let currentWeapon = JsonUtil.clone(DatabaseServer.tables.templates.items[supportedWeapons[weapon]]);
-            currentWeapon._props.Slots[0]._props.filters[0].Filter.push(itemId);
-            DatabaseServer.tables.templates.items[supportedWeapons[weapon]] = currentWeapon;
-        };
+        if (config.debug){
+            Logger.info(`Loading: ${itemId}`);
+        }
 
         let item = JsonUtil.clone(DatabaseServer.tables.templates.items[itemClone]);
-
-        // change item properties
         item._id = itemId;
         item._props.Cartridges[0]._max_count = 75
         item._props.Prefab.path = itemPrefabPath;
-
-        // add item back to database
         DatabaseServer.tables.templates.items[itemId] = item;
+
+        SpaceApi.AddItemSlotFilter("5cc82d76e24e8d00134b4b83", itemId, SpaceApi.FindSlotIndex("5cc82d76e24e8d00134b4b83", "mod_magazine"))
         
-        main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
-        main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
+        SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
+        SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
+        SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 3)
     }
 }
 

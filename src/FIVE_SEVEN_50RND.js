@@ -1,14 +1,10 @@
-"use strict"; 
+"use strict";
 
-class FIVE_SEVEN_50RND{
-    static onLoadMod(){
-        const main = require('../main')
+const SpaceApi = require("../../spaceman-api/api");
+const config = require("../config.json");
 
-        var supportedWeapons = {
-            FDE_FIVE_SEVEN: "5d3eb3b0a4b93615055e84d2", 
-            BLK_FIVE_SEVEN: "5d67abc1a4b93614ec50137f",
-        }
-
+class FIVE_SEVEN_50RND {
+    static onLoadMod() {
         const itemId = "033021_FIVESEVEN_50RND0";
         const itemClone = "5a718f958dc32e00094b97e7";
         const itemCategory = "5b5f754a86f774094242f19b";
@@ -16,17 +12,13 @@ class FIVE_SEVEN_50RND{
         const itemPrefabPath = "FIVE_SEVEN_50RND.bundle";
         const itemLongName = "Five-seveN 50-Round 5.7x28 magazine";
         const itemShortName = "5.7x28 57";
-        const itemDescription = "A Drum 50-round 5.7x28 magazine for Five-seveN."; 
-        
-        for (var weapon in supportedWeapons){
-            let currentWeapon = JsonUtil.clone(DatabaseServer.tables.templates.items[supportedWeapons[weapon]]);
-            currentWeapon._props.Slots[2]._props.filters[0].Filter.push(itemId);
-            DatabaseServer.tables.templates.items[supportedWeapons[weapon]] = currentWeapon;
-        };
+        const itemDescription = "A Drum 50-round 5.7x28 magazine for Five-seveN.";
+
+        if (config.debug){
+            Logger.info(`Loading: ${itemId}`);
+        }
 
         let item = JsonUtil.clone(DatabaseServer.tables.templates.items[itemClone]);
-
-        // change item properties
         item._id = itemId;
         item._props.Cartridges[0]._id = "5d3eb5eca4b9363b1f22f8e6";
         item._props.Cartridges[0]._parent = "5d3eb5eca4b9363b1f22f8e4";
@@ -39,12 +31,15 @@ class FIVE_SEVEN_50RND{
         item._props.Cartridges[0]._props.filters[0].Filter[6] = "5cc80f79e4a949033c7343b2";
         item._props.Cartridges[0]._props.filters[0].Filter[7] = "033021_HE1095728_0";
         item._props.Prefab.path = itemPrefabPath;
-
-        // add item back to database
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        main.createItemHandbookEntry(itemId, itemCategory, itemFleaPrice);
-        main.createItemLocale(itemId, itemLongName, itemShortName, itemDescription);
+        SpaceApi.AddItemSlotFilter("5d3eb3b0a4b93615055e84d2", itemId, SpaceApi.FindSlotIndex("5d3eb3b0a4b93615055e84d2", "mod_magazine"));
+        SpaceApi.AddItemSlotFilter("5d67abc1a4b93614ec50137f", itemId, SpaceApi.FindSlotIndex("5d67abc1a4b93614ec50137f", "mod_magazine"));
+
+        SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
+        SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
+
+        SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 2, true);
     }
 }
 

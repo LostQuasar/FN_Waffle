@@ -44,6 +44,15 @@
       ]
     },
     {
+      "key": "P90_STOCK_PINK.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/weapons/p90/client_assets.bundle"
+      ]
+    },
+    {
       "key": "FIVE_SEVEN_FRAME_RED/weapon_fn_five_seven_57x28_container.bundle",
       "dependencyKeys": [
         "shaders",
@@ -150,6 +159,80 @@
         "cubemaps",
         "FN_GL40_BLACK/textures/client_assets.bundle"
       ]
+    },
+    {
+      "key": "P90_FLASHHIDER_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/systems/effects/smoke.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "P90_RING_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/opticsight/opticsightmasks.bundle",
+        "assets/systems/effects/collimator.bundle"
+      ]
+    },
+    {
+      "key": "P90_CHARGE_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "P90_BUTTPAD_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "P90_MAG_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "P90_SUPPRESSOR_PINK.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/smoke.bundle"
+      ]
+    },
+    {
+      "key": "P90_UPPER_PINK/reciever_p90_fn_p90_std.bundle",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "P90_UPPER_PINK/reciever_p90_fn_p90_std_mesh",
+        "P90_UPPER_PINK/reciever_p90_fn_p90_std_textures"
+      ]
+    },
+    {
+      "key": "P90_UPPER_PINK/reciever_p90_fn_p90_std_mesh",
+      "dependencyKeys":[
+        "shaders",
+        "cubemaps",
+        "P90_UPPER_PINK/reciever_p90_fn_p90_std_textures"
+      ]
+    },
+    {
+      "key": "P90_UPPER_PINK/reciever_p90_fn_p90_std_textures",
+      "dependencyKeys":[]
     }
   ]
 }

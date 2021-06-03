@@ -11,8 +11,8 @@ class P90_STOCK_RED {
         const itemPrefabPath = "P90_STOCK_RED.bundle";
         const itemLongName = "Red FN P90 stock";
         const itemFleaPrice = 3500;
-        const itemShortName = "Red FN P90 stock";
-        const itemDescription = "A red varient of the regular polymer P90 stock produced by Fabrique Nationale Herstal.";
+        const itemShortName = "P90 stock";
+        const itemDescription = "A red variant of the regular polymer P90 stock produced by Fabrique Nationale Herstal.";
 
         if (config.debug){
             Logger.info(`Loading: ${itemId}`);

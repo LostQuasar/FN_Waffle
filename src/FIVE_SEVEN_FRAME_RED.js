@@ -32,7 +32,7 @@ class FIVE_SEVEN_FRAME_RED {
         for (const currentItem in addonItems){
             addonPrice += DatabaseServer.tables.templates.items[addonItems[currentItem]]._props.CreditsPrice;
         }
-        SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice + addonPrice, "RUB", 2, true);
+        SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice + addonPrice, "RUB", 2);
         SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_SLIDE_RED", "5d3eb44aa4b93650d64e4979", "FN_WAFFLE", itemId, "mod_reciever");
         SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_20RND_RED", "5d3eb5eca4b9363b1f22f8e4", "FN_WAFFLE", itemId, "mod_magazine");
         SpaceApi.AddonTraderAssortSale("FIVE_SEVEN_BARREL_RED", "5d3eb5b6a4b9361eab311902", "FN_WAFFLE", itemId, "mod_barrel");

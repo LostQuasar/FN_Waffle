@@ -33,9 +33,7 @@ class FIVE_SEVEN_50RND {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5d3eb3b0a4b93615055e84d2", itemId, SpaceApi.FindSlotIndex("5d3eb3b0a4b93615055e84d2", "mod_magazine"));
-        SpaceApi.AddItemSlotFilter("5d67abc1a4b93614ec50137f", itemId, SpaceApi.FindSlotIndex("5d67abc1a4b93614ec50137f", "mod_magazine"));
-
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
 

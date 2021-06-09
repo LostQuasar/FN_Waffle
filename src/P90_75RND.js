@@ -24,8 +24,7 @@ class P90_75RND {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5cc82d76e24e8d00134b4b83", itemId, SpaceApi.FindSlotIndex("5cc82d76e24e8d00134b4b83", "mod_magazine"))
-        
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
         SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 3)

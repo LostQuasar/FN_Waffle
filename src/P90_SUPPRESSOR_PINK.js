@@ -23,9 +23,7 @@ class P90_SUPPRESSOR_PINK {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5cc82796e24e8d000f5859a8", itemId, SpaceApi.FindSlotIndex("5cc82796e24e8d000f5859a8", "mod_muzzle"));
-        SpaceApi.AddItemSlotFilter("P90_FLASHHIDER_PINK", itemId, SpaceApi.FindSlotIndex("P90_FLASHHIDER_PINK", "mod_muzzle"));
-
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
         SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 2);

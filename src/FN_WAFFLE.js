@@ -1,11 +1,15 @@
 "use strict";
 
+const SpaceApi = require("../../spaceman-api/api");
 const config = require("../config.json");
 
 class FN_WAFFLE {
 	constructor() {
-        this.mod = "spaceman-fn_waffle";
-        ModLoader.onLoad[this.mod] = this.load.bind(this);    
+        SpaceApi.CreateNewTrader("FN_WAFFLE", true, "/files/trader/avatar/FN_WAFFLE.png", "RUB");
+        SpaceApi.CreateNewTraderLocale("en", "FN_WAFFLE", "FN Waffle", "FN", "FN Waffle", "Belgium", "Vendor for all of FN-Herstal's Products")
+
+        
+
         this.funcptr = HttpServer.onRespond["IMAGE"];    
         HttpServer.onRespond["IMAGE"] = this.getImage.bind(this);
 
@@ -15,7 +19,7 @@ class FN_WAFFLE {
     }
 
     getImage(sessionID, req, resp, body){
-        const filepath = `${ModLoader.getModPath(this.mod)}res/`;
+        const filepath = "spaceman-fn_waffle/res/";
 
         if (req.url.includes("/avatar/FN_WAFFLE"))
         {
@@ -24,31 +28,6 @@ class FN_WAFFLE {
         }
 
         this.funcptr(sessionID, req, resp, body);
-    }
-    load(){
-        RagfairConfig.traders["FN_WAFFLE"] = true;
-        const filepath = `${ModLoader.getModPath(this.mod)}db/`;
-        DatabaseServer.tables.traders.FN_WAFFLE = {
-            "assort":       JsonUtil.deserialize(VFS.readFile(`${filepath}assort.json`)),
-            "base":         JsonUtil.deserialize(VFS.readFile(`${filepath}base.json`)),
-            "dialogue":     JsonUtil.deserialize(VFS.readFile(`${filepath}dialogue.json`)),
-            "questassort":  JsonUtil.deserialize(VFS.readFile(`${filepath}questassort.json`)),
-            "suits":        JsonUtil.deserialize(VFS.readFile(`${filepath}suits.json`))
-        };
-        let locales = DatabaseServer.tables.locales.global;
-
-        for (const locale in locales)
-        {
-            locales[locale].trading.FN_WAFFLE = {
-                "FullName": "FN Waffle",
-                "FirstName": "FN",
-                "Nickname": "FN Waffle",
-                "Location": "Belgium",
-                "Description": "Vendor for all of FN-Herstal Products"
-            };
-        }
-
-        DatabaseServer.tables.locales.global = locales;
     }
 }
 

@@ -23,10 +23,7 @@ class P90_RING_PINK {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5cf7acfcd7f00c1084477cf2", itemId, SpaceApi.FindSlotIndex("5cf7acfcd7f00c1084477cf2", "mod_mount_000"));
-        SpaceApi.AddItemSlotFilter("5cc70102e4a949035e43ba74", itemId, SpaceApi.FindSlotIndex("5cc70102e4a949035e43ba74", "mod_mount_000"));
-        SpaceApi.AddItemSlotFilter("P90_UPPER_PINK", itemId, SpaceApi.FindSlotIndex("P90_UPPER_PINK", "mod_mount_000"));
-
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
     }

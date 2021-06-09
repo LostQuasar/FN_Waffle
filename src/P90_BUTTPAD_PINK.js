@@ -22,12 +22,8 @@ class P90_BUTTPAD_PINK {
         item._id = itemId;
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
-
-        SpaceApi.AddItemSlotFilter("P90_STOCK_PINK", itemId, SpaceApi.FindSlotIndex("P90_STOCK_PINK", "mod_stock_000"));
-        SpaceApi.AddItemSlotFilter("040721_P90_STOCK_RED0", itemId, SpaceApi.FindSlotIndex("040721_P90_STOCK_RED0", "mod_stock_000"));
-        SpaceApi.AddItemSlotFilter("5cc700b9e4a949000f0f0f25", itemId, SpaceApi.FindSlotIndex("5cc700b9e4a949000f0f0f25", "mod_stock_000"));
-        SpaceApi.AddItemSlotFilter("5cebec10d7f00c065703d185", itemId, SpaceApi.FindSlotIndex("5cebec10d7f00c065703d185", "mod_stock_000"));
-
+        
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
     }

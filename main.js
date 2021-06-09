@@ -20,11 +20,13 @@ const P90_SUPPRESSOR_PINK = require("./src/P90_SUPPRESSOR_PINK.js");
 const P90_CHARGE_PINK = require("./src/P90_CHARGE_PINK.js");
 const LLENNS_P90 = require("./src/LLENNS_P90.js");
 const P90_MAG_PINK = require("./src/P90_MAG_PINK.js");
+const FN_WAFFLE_ASSORT = require("./src/FN_WAFFLE_ASSORT.js");
 
 class main {
     constructor() {
         Logger.info(`Loading: spaceman-fn_waffle`);
 
+        ModLoader.onLoad["FN_WAFFLE_ASSORT"] = FN_WAFFLE_ASSORT.onLoadMod;
         ModLoader.onLoad["HE109_57_28"] = HE109_57_28.onLoadMod;
         ModLoader.onLoad["FIVE_SEVEN_FDE_SLIDE"] = FIVE_SEVEN_FDE_SLIDE.onLoadMod;
         ModLoader.onLoad["FIVE_SEVEN_10RND"] = FIVE_SEVEN_10RND.onLoadMod;

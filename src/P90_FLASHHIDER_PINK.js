@@ -23,8 +23,7 @@ class P90_FLASHHIDER_PINK {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5cc701aae4a949000e1ea45c", itemId, SpaceApi.FindSlotIndex("5cc701aae4a949000e1ea45c", "mod_muzzle"));
-
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
     }

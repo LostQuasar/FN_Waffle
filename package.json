@@ -2,9 +2,9 @@
   "name": "fn_waffle",
   "author": "spaceman",
   "version": "1.4.0",
-  "license": "MIT",
+  "license": "GPL",
   "main": "main.js",
   "dependencies": {
-    "spaceman-api": "1.0.0"
+    "spaceman-api": "1.5.0"
   }
 }

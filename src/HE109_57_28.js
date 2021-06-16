@@ -35,12 +35,7 @@ class HE109_57_28 {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[item._id] = item;
 
-        SpaceApi.AddChamberFilter("5d3eb3b0a4b93615055e84d2", itemId)
-        SpaceApi.AddChamberFilter("5d67abc1a4b93614ec50137f", itemId)
-        SpaceApi.AddChamberFilter("5cc82d76e24e8d00134b4b83", itemId)
-        SpaceApi.AddCartridgesFilter("5d3eb5eca4b9363b1f22f8e4", itemId);
-        SpaceApi.AddCartridgesFilter("5cc70093e4a949033c734312", itemId);
-
+        SpaceApi.AddItemCopyFilter(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
         SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 2, true)

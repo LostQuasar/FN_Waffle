@@ -24,7 +24,7 @@ class FIVE_SEVEN_DELTA_POINT {
         item._props.Slots[0]._props.filters[0].Filter = ["58d268fc86f774111273f8c2"];
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
+        SpaceApi.AddItemCopyFilter(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
 

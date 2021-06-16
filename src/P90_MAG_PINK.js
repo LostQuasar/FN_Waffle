@@ -23,7 +23,7 @@ class P90_MAG_PINK {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
         
-        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
+        SpaceApi.AddItemCopyFilter(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
     }

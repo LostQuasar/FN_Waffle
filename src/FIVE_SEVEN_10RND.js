@@ -23,7 +23,7 @@ class FIVE_SEVEN_10RND {
         item._props.Cartridges[0]._max_count = 10;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
+        SpaceApi.AddItemCopyFilter(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
         SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice, "RUB", 1, true);

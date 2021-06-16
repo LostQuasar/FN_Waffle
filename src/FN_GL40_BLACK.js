@@ -31,6 +31,7 @@ class FN_GL40_BLACK {
         for (const currentItem in addonItems){
             addonPrice += DatabaseServer.tables.templates.items[addonItems[currentItem]]._props.CreditsPrice;
         }
+        
         SpaceApi.CreateTraderAssort(itemId, itemId, "FN_WAFFLE", itemFleaPrice + addonPrice, "RUB", 4);
         SpaceApi.AddonTraderAssortSale("FN_GL40_BLACK_PG", "55d4b9964bdc2d1d4e8b456e", "FN_WAFFLE", itemId, "mod_pistol_grip");
         SpaceApi.AddonTraderAssortSale("FN_GL40_BLACK_FS", "5bc09a30d4351e00367fb7c8", "FN_WAFFLE", itemId, "mod_sight_front");

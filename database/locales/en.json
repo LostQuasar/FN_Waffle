@@ -1,0 +1,9 @@
+{
+  "templates": {
+    "fiveseven_50rnd_0": {
+      "Name": "FN Five-seveN 5.7x28 50-round magazine",
+      "ShortName": "5-7",
+      "Description": "An extended 50-round 5.7x28 magazine for the FN Five-seveN pistol."
+    }
+  }
+}
